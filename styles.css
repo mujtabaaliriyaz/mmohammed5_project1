@@ -1,0 +1,145 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 106%;
+    mix-blend-mode:darken;
+}
+body{
+    background-image: url(blue_abstract_background_310971.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 255);
+    mix-blend-mode: multiply;
+    
+}
+
+h1,h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+figure{
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+h1{
+    text-align-last: center;
+    font-size: 120%;
+}
+#info1{
+    margin-bottom: 0%;
+    
+}
+.main-data{
+    margin: 3em;
+}
+.main-nav li{
+    display: inline-block;
+    align-self: center;
+    text-decoration: none;
+    font-size: 88%;
+    margin:0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: .25em;
+    background-color: rgba(11, 38, 105, 0.352);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    
+}
+.main-nav li:hover{
+    background-color: rgba(25, 5, 243, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    
+   
+
+}
+.main-head{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-emphasis: none;
+    font-size: 150%;
+    margin: 1em;
+    padding: .5em;
+    background-color:rgb(11, 38, 105);
+    color: lightgray;
+    border-top: 1em;
+    border-bottom: 1em;
+    border-left: 1em;
+    border-right: 1em;
+}
+.info{
+    background-color: rgba(88, 80, 236, 0.127);
+    padding: .5em;
+    margin:1em;
+    padding-left: 1em;
+    padding-bottom: .9em;
+    max-width: 25%;
+    margin-left: 3em;
+    border-width:.1em;
+    border-color:black;
+    border-style: solid;
+}
+.sub-head{
+    margin-left: 2em;
+    margin-top: 1em;
+    font-weight:unset;
+    font-size: 1.5em;
+}
+.home-nav{
+    margin: 1.5em;
+}
+.home-nav li{
+    margin: 2em;
+    
+    
+}
+.home-nav li:hover{
+    background-color: rgba(9, 9, 9, 0.127);
+    cursor:pointer;
+    background-blend-mode: multiply;
+    padding: .1em;
+    padding-right: .1em;
+    margin-right: .1em;
+    border-right:.1em;
+}
+.q-data,.c-data{
+    margin:2em;
+    font-size: 1.25em;
+}
+.q-table{
+    margin: 2em;
+    table-layout: auto;
+}
+.c-sub-head{
+    margin:2em;
+    font-size:x-large;
+    font-weight: bold;
+}
+.profile{
+    text-align: left;
+    margin-left: 2em;
+    font-size: 140%;
+    font-weight: bold;
+}
+.h-flex{
+    display: flex;
+}
+.h-flex>img{
+    float: right;
+    margin-left: 11em;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    background-blend-mode: normal;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 2em;
+}
+
